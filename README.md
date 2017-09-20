@@ -1,0 +1,3 @@
+HEAD
+# php-for-vim
+f4719c5977988b3251fe169b544b370ee88359e1
