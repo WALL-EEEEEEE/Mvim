@@ -1,0 +1,17 @@
+:SyncopateExportToBrowser	syncopate.txt	/*:SyncopateExportToBrowser*
+:SyncopateExportToClipboard	syncopate.txt	/*:SyncopateExportToClipboard*
+syncopate	syncopate.txt	/*syncopate*
+syncopate#ClipboardOperatorfunc()	syncopate.txt	/*syncopate#ClipboardOperatorfunc()*
+syncopate-commands	syncopate.txt	/*syncopate-commands*
+syncopate-config	syncopate.txt	/*syncopate-config*
+syncopate-contents	syncopate.txt	/*syncopate-contents*
+syncopate-functions	syncopate.txt	/*syncopate-functions*
+syncopate-intro	syncopate.txt	/*syncopate-intro*
+syncopate-standard-config	syncopate.txt	/*syncopate-standard-config*
+syncopate.txt	syncopate.txt	/*syncopate.txt*
+syncopate:browser	syncopate.txt	/*syncopate:browser*
+syncopate:change_colorscheme	syncopate.txt	/*syncopate:change_colorscheme*
+syncopate:clear_bg	syncopate.txt	/*syncopate:clear_bg*
+syncopate:colorscheme	syncopate.txt	/*syncopate:colorscheme*
+syncopate:plugin[commands]	syncopate.txt	/*syncopate:plugin[commands]*
+syncopate:plugin[mappings]	syncopate.txt	/*syncopate:plugin[mappings]*

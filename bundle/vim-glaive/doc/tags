@@ -1,0 +1,9 @@
+:Glaive	glaive.txt	/*:Glaive*
+Glaive	glaive.txt	/*Glaive*
+glaive	glaive.txt	/*glaive*
+glaive-commands	glaive.txt	/*glaive-commands*
+glaive-config	glaive.txt	/*glaive-config*
+glaive-contents	glaive.txt	/*glaive-contents*
+glaive-intro	glaive.txt	/*glaive-intro*
+glaive.txt	glaive.txt	/*glaive.txt*
+glaive:plugin[commands]	glaive.txt	/*glaive:plugin[commands]*
