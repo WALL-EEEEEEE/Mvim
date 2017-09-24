@@ -6,6 +6,12 @@
 
 &ensp;&ensp;&ensp;&ensp;It's sufficient for me to write some `Java` , `PHP`, `C/C++` , `Python` , `Go` and `Javascript`. And you can feel free to tweak it to match your personal development requirements after `git clone` it.
 
+# Screenshot Preview
+
+1.  vim with editing .vimrc
+
+![vimrc.png](https://raw.githubusercontent.com/duanqiaobb/Mvim/master/screenshots/vim_vimrc.png)
+
 # Usage
 
 &ensp;&ensp;&ensp;&ensp;This repository is just a draft repositry, I just put  all plugins into one blanket, without catergorizing them.I will do it after if I have some time.</br>

@@ -1,6 +1,5 @@
 #!/bin/bash 
 #This file is used to install vim
-
 #Detect Os distribution
 function os_type()
 {
