@@ -470,3 +470,5 @@ call glaive#Install()
 Glaive syncopate browser='google-chrome-stable'
 Glaive syncopate !change_colorscheme clear_bg
 Glaive syncopate colorscheme="default"
+"show json quotes for current line
+let g:indentLine_concealcursor=""
