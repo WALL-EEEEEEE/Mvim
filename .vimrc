@@ -291,6 +291,7 @@ let g:nodejs_complete_config = {
 " For jschecker
 let g:syntastic_javascript_checkers = ['jslint']
 
+
 " for neocomplete
 
 " Disable AutoComplPop.
@@ -465,8 +466,14 @@ let g:dasht_filetype_docsets['python'] = ['(num|sci)py', 'pandas']
 " When in HTML, also search CSS, JavaScript, Bootstrap, and jQuery:
 let g:dasht_filetype_docsets['html'] = ['css', 'js', 'bootstrap']
 
+
 call glaive#Install()
 
 Glaive syncopate browser='google-chrome-stable'
 Glaive syncopate !change_colorscheme clear_bg
 Glaive syncopate colorscheme="default"
+"Set php tags
+let g:phpcomplete_index_composer_command='composer'
+
+"set for python 
+let g:syntastic_python_python_exec = '/usr/local/bin/python3.6'
