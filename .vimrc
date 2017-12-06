@@ -30,7 +30,6 @@ set guifont=Ubuntu\ Mono\ derivative\ Powerline\ Nerd\ Font\ 14
 "change the default browser to preview markdown.
 let g:livedown_browser="google-chrome-stable"
 
-
 "specify the layout of winmanager
 
 "customize  taglist left and nerdtree  right
