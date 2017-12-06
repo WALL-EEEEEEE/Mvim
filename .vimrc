@@ -30,7 +30,6 @@ set guifont=Ubuntu\ Mono\ derivative\ Powerline\ Nerd\ Font\ 14
 "change the default browser to preview markdown.
 let g:livedown_browser="google-chrome-stable"
 
-
 "specify the layout of winmanager
 
 "customize  taglist left and nerdtree  right
@@ -477,3 +476,5 @@ let g:phpcomplete_index_composer_command='composer'
 
 "set for python 
 let g:syntastic_python_python_exec = '/usr/local/bin/python3.6'
+"show json quotes for current line
+let g:indentLine_concealcursor=""
