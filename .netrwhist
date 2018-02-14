@@ -1,5 +1,11 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =3
+<<<<<<< HEAD
 let g:netrw_dirhist_1='/home/jhbian'
 let g:netrw_dirhist_2='/home'
 let g:netrw_dirhist_3='/home/jhbian'
+=======
+let g:netrw_dirhist_1='/usr/share/vim/vim74/doc'
+let g:netrw_dirhist_2='/home/jhbian/test'
+let g:netrw_dirhist_3='/home/jhbian/test/Reflect'
+>>>>>>> 36ad6c264b61000e12e143ea9db5896c5f95ed47
