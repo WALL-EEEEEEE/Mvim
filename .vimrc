@@ -24,7 +24,7 @@ Plug '~/.vim/bundle/basic/indentLine'
 Plug '~/.vim/bundle/basic/MatchTag'
 Plug '~/.vim/bundle/basic/multiple-cursors'
 Plug '~/.vim/bundle/basic/neocomplete.vim'
-"Plug '~/.vim/bundle/basic/nerdtree'
+Plug '~/.vim/bundle/basic/nerdtree'
 "Plug '~/.vim/bundle/basic/nerdtree-ack'
 Plug '~/.vim/bundle/basic/onehalf-theme'
 Plug '~/.vim/bundle/basic/papercolor-theme'
@@ -321,6 +321,7 @@ Glaive syncopate colorscheme="default"
 let g:phpcomplete_index_composer_command='composer'
 autocmd  FileType  php setlocal omnifunc=phpcomplete_extended#CompletePHP
 
+"--Startify 
 "Mappings
 "---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
