@@ -22,9 +22,8 @@ Plug '~/.vim/bundle/basic/gist-vim'
 Plug '~/.vim/bundle/basic/github.vim'
 Plug '~/.vim/bundle/basic/indentLine'
 Plug '~/.vim/bundle/basic/MatchTag'
-Plug '~/.vim/bundle/basic/multiple-cursors'
 Plug '~/.vim/bundle/basic/neocomplete.vim'
-"Plug '~/.vim/bundle/basic/nerdtree'
+Plug '~/.vim/bundle/basic/nerdtree'
 "Plug '~/.vim/bundle/basic/nerdtree-ack'
 Plug '~/.vim/bundle/basic/onehalf-theme'
 Plug '~/.vim/bundle/basic/papercolor-theme'
@@ -39,7 +38,6 @@ Plug '~/.vim/bundle/basic/vim-glaive'
 Plug '~/.vim/bundle/basic/vim-localvimrc'
 Plug '~/.vim/bundle/basic/vim-maktaba'
 Plug '~/.vim/bundle/basic/vim-misc'
-Plug '~/.vim/bundle/basic/vim-reload'
 Plug '~/.vim/bundle/basic/vim-rooter'
 Plug '~/.vim/bundle/basic/vim-snippets'
 Plug '~/.vim/bundle/basic/vim-surround'
@@ -51,11 +49,14 @@ Plug '~/.vim/bundle/basic/winmanager'
 Plug '~/.vim/bundle/basic/Mike'
 Plug '~/.vim/bundle/basic/vim-startify'
 Plug '~/.vim/bundle/basic/vim-leader-guide'
+Plug '~/.vim/bundle/basic/mirror.vim'
 "--program
 Plug '~/.vim/bundle/program/nerdcommenter', { 'for': ['java','php','cpp','c','javascript'] }
 Plug '~/.vim/bundle/program/syntastic', { 'for': ['java','php','cpp','c','javascript'] }
 Plug '~/.vim/bundle/program/vdebug', { 'for': ['java','php','cpp','c','javascript'] }
 Plug '~/.vim/bundle/program/YouCompleteMe', { 'for': ['cpp','c','javascript','python','go','ruby'] }
+Plug '~/.vim/bundle/program/vim-wakatime', { 'for': ['java','php','cpp','c','javascript'] }
+
 "--php
 Plug '~/.vim/bundle/php/php-documentor-vim', { 'for': 'php' }
 Plug '~/.vim/bundle/php/php_getset', { 'for': 'php' }
@@ -77,6 +78,8 @@ Plug '~/.vim/bundle/markdown/vim-pandoc-syntax', { 'for': 'markdown' }
 Plug '~/.vim/bundle/markdown/vim-livedown', { 'for': 'markdown'}
 "--assemble
 Plug '~/.vim/bundle/assemble/vim-gas', { 'for': 'nasm'}
+"--viml
+Plug '~/.vim/bundle/viml/vim-reload' , { 'for': 'vim' }
 call plug#end()
 
 "Custom Settings
@@ -287,8 +290,9 @@ let g:UltiSnipsExpandTrigger="<c-x>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
+
 "--YoucompleteMe
-let g:ycm_global_ycm_extra_conf="/home/johans/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
+let g:ycm_global_ycm_extra_conf="/home/johans/.vim/bundle/program/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
 let g:syntastic_cpp_compiler = 'g++'
 let g:syntastic_cpp_compiler_options = '-std=c++11 -stdlib=libc++ '
 
@@ -320,6 +324,29 @@ Glaive syncopate colorscheme="default"
 "--Phpcomplete-extend
 let g:phpcomplete_index_composer_command='composer'
 autocmd  FileType  php setlocal omnifunc=phpcomplete_extended#CompletePHP
+
+"--Startify
+
+function! s:filter_header(lines) abort
+        let longest_line   = max(map(copy(a:lines), 'strwidth(v:val)'))
+        let centered_lines = map(copy(a:lines),
+            \ 'repeat(" ", (&columns / 2) - (longest_line / 2)) . v:val')
+        return centered_lines
+    endfunction
+let g:ascii = [
+\ '                                        _|                      ',
+\ '                                                                ',
+\ '                _|_|_|  _|_|    _|      _|      _|_|_|  _|_|    ',
+\ '                _|    _|    _|  _|      _|  _|  _|    _|    _|  ',
+\ '                _|    _|    _|    _|  _|    _|  _|    _|    _|  ',
+\ '                _|    _|    _|      _|      _|  _|    _|    _|  ',
+\ '      _   _   _   _     _   _   _   _   _     _   _   _     _   _   _   _  ',
+\ '     / \ / \ / \ / \   / \ / \ / \ / \ / \   / \ / \ / \   / \ / \ / \ / \ ',
+\ '    ( 2 | 0 | 1 | 8 ) ( H | a | p | p | y ) ( N | e | w ) ( Y | e | a | r )',
+\ '     \_/ \_/ \_/ \_/   \_/ \_/ \_/ \_/ \_/   \_/ \_/ \_/   \_/ \_/ \_/ \_/ ',
+\ ]
+let g:startify_custom_header = s:filter_header(g:ascii)
+set viminfo='100,n$HOME/.vim/files/info/viminfo
 
 "Mappings
 "---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -384,3 +411,5 @@ vnoremap s   :SlimuxREPLSendSelection<cr>
 noremap sc   :SlimuxREPLConfigure<cr>
 noremap Sc   :SlimuxShellConfigure<cr>
 noremap sl   :SlimuxREPLSendLine<cr>
+
+"Fix or Compatible with plugins
