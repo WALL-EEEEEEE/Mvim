@@ -11,19 +11,19 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0~/program
+~MSle0~/>>>
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1519654677,,"q"
+|2,0,1519654929,,"q"
+:wq
+|2,0,1519654926,,"wq"
+:w
+|2,0,1519654925,,"w"
 :LivedownPreview
 |2,0,1519630727,,"LivedownPreview"
-:w
-|2,0,1519630723,,"w"
 :version
 |2,0,1519629161,,"version"
-:wq
-|2,0,1519627913,,"wq"
 :e
 |2,0,1519627573,,"e"
 :PHPCompleteExtendedReload
@@ -48,6 +48,10 @@
 |2,0,1518789458,,"help startify-faq-02"
 
 # Search String History (newest to oldest):
+?/>>>
+|2,1,1519654892,47,">>>"
+?/===
+|2,1,1519654829,47,"==="
 ?/program
 |2,1,1519358918,47,"program"
 ?/Startify
@@ -63,269 +67,285 @@
 "0	CHAR	0
 	program
 |3,0,0,0,1,0,1519359034,"program"
-"1	LINE	0
+""1	CHAR	0
+	=======
+	"--Startify 
+	>>>>>>> 219fe59a4cfec2cf713b9dcb128487bfd2678699
 	
-|3,0,1,1,1,0,1519629880,""
+|3,1,1,0,4,0,1519654924,"=======","\"--Startify ",">>>>>>> 219fe59a4cfec2cf713b9dcb128487bfd2678699",""
 "2	LINE	0
-	
-|3,0,2,1,1,0,1519629879,""
+	<<<<<<< HEAD
+|3,0,2,1,1,0,1519654919,"<<<<<<< HEAD"
 "3	LINE	0
-	# Requirements
-|3,0,3,1,1,0,1519629879,"# Requirements"
+	&ensp;&ensp;&ensp;&ensp;This repository is just a draft repositry, I just put  all plugins into one blanket, without catergorizing them.I will do it after if I have some time.</br>
+|3,0,3,1,1,0,1519654856,"&ensp;&ensp;&ensp;&ensp;This repository is just a draft repositry, I just put  all plugins into one blanket, without catergorizing them.I will do it after if I have some time.</br>"
 "4	LINE	0
-	+ vim >= 8 +python +python3
-|3,0,4,1,1,0,1519629878,"+ vim >= 8 +python +python3"
+	>>>>>>> 219fe59a4cfec2cf713b9dcb128487bfd2678699
+|3,0,4,1,1,0,1519654804,">>>>>>> 219fe59a4cfec2cf713b9dcb128487bfd2678699"
 "5	LINE	0
-	+ vim +python
-|3,0,5,1,1,0,1519629139,"+ vim +python"
-"6	LINE	0
+	=======
+|3,0,5,1,1,0,1519654786,"======="
+"6	CHAR	0
+	# Screenshot Preview
 	
-|3,0,6,1,1,0,1519629091,""
+|3,0,6,0,2,0,1519654785,"# Screenshot Preview",""
 "7	LINE	0
-	 
-|3,0,7,1,1,0,1519628962," "
-"8	LINE	0
 	
-|3,0,8,1,1,0,1519628876,""
+|3,0,7,1,1,0,1519654780,""
+"8	LINE	0
+	<<<<<<< HEAD
+|3,0,8,1,1,0,1519654779,"<<<<<<< HEAD"
 "9	LINE	0
-	#
-|3,0,9,1,1,0,1519628871,"#"
-""-	CHAR	0
+	
+|3,0,9,1,1,0,1519629880,""
+"-	CHAR	0
 	*
-|3,1,36,0,1,0,1519654675,"*"
+|3,0,36,0,1,0,1519654675,"*"
 
 # File marks:
-'0  58  1  ~/.vim/README.md
-|4,48,58,1,1519654677,"~/.vim/README.md"
-'1  2  0  ~/.vim/.vimrc
-|4,49,2,0,1519629868,"~/.vim/.vimrc"
-'2  13  4  /home/jhbian/pider/Startify
-|4,50,13,4,1519629304,"/home/jhbian/pider/Startify"
-'3  2  0  ~/.vim/README.md
-|4,51,2,0,1519629202,"~/.vim/README.md"
-'4  2  0  ~/.vim/README.md
-|4,52,2,0,1519629202,"~/.vim/README.md"
-'5  10  0  ~/.vim/README.md
-|4,53,10,0,1519629199,"~/.vim/README.md"
-'6  10  0  ~/.vim/README.md
-|4,54,10,0,1519629199,"~/.vim/README.md"
-'7  13  0  ~/.vim/README.md
-|4,55,13,0,1519629199,"~/.vim/README.md"
-'8  13  0  ~/.vim/README.md
-|4,56,13,0,1519629199,"~/.vim/README.md"
-'9  21  0  ~/.vim/README.md
-|4,57,21,0,1519627913,"~/.vim/README.md"
+'0  2  0  ~/.vimrc
+|4,48,2,0,1519654929,"~/.vimrc"
+'1  351  0  ~/.vimrc
+|4,49,351,0,1519654926,"~/.vimrc"
+'2  351  0  ~/.vimrc
+|4,50,351,0,1519654926,"~/.vimrc"
+'3  22  0  ~/.vim/README.md
+|4,51,22,0,1519654877,"~/.vim/README.md"
+'4  111  0  ~/.vim/README.md
+|4,52,111,0,1519654859,"~/.vim/README.md"
+'5  111  0  ~/.vim/README.md
+|4,53,111,0,1519654859,"~/.vim/README.md"
+'6  54  1  ~/.vim/README.md
+|4,54,54,1,1519654677,"~/.vim/README.md"
+'7  58  1  ~/.vim/README.md
+|4,55,58,1,1519654677,"~/.vim/README.md"
+'8  54  1  ~/.vim/README.md
+|4,56,54,1,1519654677,"~/.vim/README.md"
+'9  58  1  ~/.vim/README.md
+|4,57,58,1,1519654677,"~/.vim/README.md"
 
 # Jumplist (newest first):
+-'  2  0  ~/.vimrc
+|4,39,2,0,1519654929,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1519654927,"~/.vimrc"
+-'  351  0  ~/.vimrc
+|4,39,351,0,1519654926,"~/.vimrc"
+-'  351  0  ~/.vimrc
+|4,39,351,0,1519654926,"~/.vimrc"
+-'  79  0  ~/.vimrc
+|4,39,79,0,1519654892,"~/.vimrc"
+-'  79  0  ~/.vimrc
+|4,39,79,0,1519654892,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1519654882,"~/.vimrc"
+-'  22  0  ~/.vim/README.md
+|4,39,22,0,1519654877,"~/.vim/README.md"
+-'  22  0  ~/.vim/README.md
+|4,39,22,0,1519654877,"~/.vim/README.md"
+-'  22  0  ~/.vim/README.md
+|4,39,22,0,1519654877,"~/.vim/README.md"
+-'  22  0  ~/.vim/README.md
+|4,39,22,0,1519654877,"~/.vim/README.md"
+-'  1  0  ~/.vim/README.md
+|4,39,1,0,1519654866,"~/.vim/README.md"
+-'  1  0  ~/.vim/README.md
+|4,39,1,0,1519654866,"~/.vim/README.md"
+-'  1  0  ~/.vim/README.md
+|4,39,1,0,1519654866,"~/.vim/README.md"
+-'  1  0  ~/.vim/README.md
+|4,39,1,0,1519654866,"~/.vim/README.md"
+-'  111  0  ~/.vim/README.md
+|4,39,111,0,1519654859,"~/.vim/README.md"
+-'  111  0  ~/.vim/README.md
+|4,39,111,0,1519654859,"~/.vim/README.md"
+-'  111  0  ~/.vim/README.md
+|4,39,111,0,1519654859,"~/.vim/README.md"
+-'  111  0  ~/.vim/README.md
+|4,39,111,0,1519654859,"~/.vim/README.md"
+-'  111  0  ~/.vim/README.md
+|4,39,111,0,1519654859,"~/.vim/README.md"
+-'  111  0  ~/.vim/README.md
+|4,39,111,0,1519654859,"~/.vim/README.md"
+-'  111  0  ~/.vim/README.md
+|4,39,111,0,1519654859,"~/.vim/README.md"
+-'  111  0  ~/.vim/README.md
+|4,39,111,0,1519654859,"~/.vim/README.md"
+-'  156  0  ~/.vim/README.md
+|4,39,156,0,1519654824,"~/.vim/README.md"
+-'  156  0  ~/.vim/README.md
+|4,39,156,0,1519654824,"~/.vim/README.md"
+-'  156  0  ~/.vim/README.md
+|4,39,156,0,1519654824,"~/.vim/README.md"
+-'  156  0  ~/.vim/README.md
+|4,39,156,0,1519654824,"~/.vim/README.md"
+-'  156  0  ~/.vim/README.md
+|4,39,156,0,1519654824,"~/.vim/README.md"
+-'  156  0  ~/.vim/README.md
+|4,39,156,0,1519654824,"~/.vim/README.md"
+-'  156  0  ~/.vim/README.md
+|4,39,156,0,1519654824,"~/.vim/README.md"
+-'  156  0  ~/.vim/README.md
+|4,39,156,0,1519654824,"~/.vim/README.md"
+-'  1  0  ~/.vim/README.md
+|4,39,1,0,1519654756,"~/.vim/README.md"
+-'  1  0  ~/.vim/README.md
+|4,39,1,0,1519654756,"~/.vim/README.md"
+-'  1  0  ~/.vim/README.md
+|4,39,1,0,1519654756,"~/.vim/README.md"
+-'  1  0  ~/.vim/README.md
+|4,39,1,0,1519654756,"~/.vim/README.md"
+-'  54  1  ~/.vim/README.md
+|4,39,54,1,1519654677,"~/.vim/README.md"
 -'  58  1  ~/.vim/README.md
 |4,39,58,1,1519654677,"~/.vim/README.md"
+-'  54  1  ~/.vim/README.md
+|4,39,54,1,1519654677,"~/.vim/README.md"
+-'  58  1  ~/.vim/README.md
+|4,39,58,1,1519654677,"~/.vim/README.md"
+-'  54  1  ~/.vim/README.md
+|4,39,54,1,1519654677,"~/.vim/README.md"
+-'  58  1  ~/.vim/README.md
+|4,39,58,1,1519654677,"~/.vim/README.md"
+-'  54  1  ~/.vim/README.md
+|4,39,54,1,1519654677,"~/.vim/README.md"
+-'  58  1  ~/.vim/README.md
+|4,39,58,1,1519654677,"~/.vim/README.md"
+-'  54  1  ~/.vim/README.md
+|4,39,54,1,1519654677,"~/.vim/README.md"
+-'  58  1  ~/.vim/README.md
+|4,39,58,1,1519654677,"~/.vim/README.md"
+-'  54  1  ~/.vim/README.md
+|4,39,54,1,1519654677,"~/.vim/README.md"
+-'  58  1  ~/.vim/README.md
+|4,39,58,1,1519654677,"~/.vim/README.md"
+-'  54  1  ~/.vim/README.md
+|4,39,54,1,1519654677,"~/.vim/README.md"
+-'  58  1  ~/.vim/README.md
+|4,39,58,1,1519654677,"~/.vim/README.md"
+-'  54  1  ~/.vim/README.md
+|4,39,54,1,1519654677,"~/.vim/README.md"
+-'  58  1  ~/.vim/README.md
+|4,39,58,1,1519654677,"~/.vim/README.md"
+-'  55  0  ~/.vim/README.md
+|4,39,55,0,1519654676,"~/.vim/README.md"
 -'  59  0  ~/.vim/README.md
 |4,39,59,0,1519654676,"~/.vim/README.md"
+-'  55  0  ~/.vim/README.md
+|4,39,55,0,1519654676,"~/.vim/README.md"
+-'  59  0  ~/.vim/README.md
+|4,39,59,0,1519654676,"~/.vim/README.md"
+-'  55  0  ~/.vim/README.md
+|4,39,55,0,1519654676,"~/.vim/README.md"
+-'  59  0  ~/.vim/README.md
+|4,39,59,0,1519654676,"~/.vim/README.md"
+-'  55  0  ~/.vim/README.md
+|4,39,55,0,1519654676,"~/.vim/README.md"
+-'  59  0  ~/.vim/README.md
+|4,39,59,0,1519654676,"~/.vim/README.md"
+-'  55  0  ~/.vim/README.md
+|4,39,55,0,1519654676,"~/.vim/README.md"
+-'  59  0  ~/.vim/README.md
+|4,39,59,0,1519654676,"~/.vim/README.md"
+-'  55  0  ~/.vim/README.md
+|4,39,55,0,1519654676,"~/.vim/README.md"
+-'  59  0  ~/.vim/README.md
+|4,39,59,0,1519654676,"~/.vim/README.md"
+-'  55  0  ~/.vim/README.md
+|4,39,55,0,1519654676,"~/.vim/README.md"
+-'  59  0  ~/.vim/README.md
+|4,39,59,0,1519654676,"~/.vim/README.md"
+-'  55  0  ~/.vim/README.md
+|4,39,55,0,1519654676,"~/.vim/README.md"
+-'  59  0  ~/.vim/README.md
+|4,39,59,0,1519654676,"~/.vim/README.md"
+-'  16  0  ~/.vim/README.md
+|4,39,16,0,1519630792,"~/.vim/README.md"
 -'  20  0  ~/.vim/README.md
 |4,39,20,0,1519630792,"~/.vim/README.md"
+-'  16  0  ~/.vim/README.md
+|4,39,16,0,1519630792,"~/.vim/README.md"
+-'  20  0  ~/.vim/README.md
+|4,39,20,0,1519630792,"~/.vim/README.md"
+-'  16  0  ~/.vim/README.md
+|4,39,16,0,1519630792,"~/.vim/README.md"
+-'  20  0  ~/.vim/README.md
+|4,39,20,0,1519630792,"~/.vim/README.md"
+-'  16  0  ~/.vim/README.md
+|4,39,16,0,1519630792,"~/.vim/README.md"
+-'  20  0  ~/.vim/README.md
+|4,39,20,0,1519630792,"~/.vim/README.md"
+-'  16  0  ~/.vim/README.md
+|4,39,16,0,1519630792,"~/.vim/README.md"
+-'  20  0  ~/.vim/README.md
+|4,39,20,0,1519630792,"~/.vim/README.md"
+-'  16  0  ~/.vim/README.md
+|4,39,16,0,1519630792,"~/.vim/README.md"
+-'  20  0  ~/.vim/README.md
+|4,39,20,0,1519630792,"~/.vim/README.md"
+-'  16  0  ~/.vim/README.md
+|4,39,16,0,1519630792,"~/.vim/README.md"
+-'  20  0  ~/.vim/README.md
+|4,39,20,0,1519630792,"~/.vim/README.md"
+-'  16  0  ~/.vim/README.md
+|4,39,16,0,1519630792,"~/.vim/README.md"
+-'  20  0  ~/.vim/README.md
+|4,39,20,0,1519630792,"~/.vim/README.md"
+-'  1  0  ~/.vim/README.md
+|4,39,1,0,1519629871,"~/.vim/README.md"
+-'  1  0  ~/.vim/README.md
+|4,39,1,0,1519629871,"~/.vim/README.md"
+-'  1  0  ~/.vim/README.md
+|4,39,1,0,1519629871,"~/.vim/README.md"
 -'  1  0  ~/.vim/README.md
 |4,39,1,0,1519629871,"~/.vim/README.md"
 -'  2  0  ~/.vim/.vimrc
 |4,39,2,0,1519629868,"~/.vim/.vimrc"
 -'  2  0  ~/.vim/.vimrc
 |4,39,2,0,1519629868,"~/.vim/.vimrc"
--'  1  0  ~/.vim/.vimrc
-|4,39,1,0,1519629866,"~/.vim/.vimrc"
--'  1  0  ~/.vim/.vimrc
-|4,39,1,0,1519629866,"~/.vim/.vimrc"
--'  13  4  /home/jhbian/pider/Startify
-|4,39,13,4,1519629304,"/home/jhbian/pider/Startify"
--'  13  4  /home/jhbian/pider/Startify
-|4,39,13,4,1519629304,"/home/jhbian/pider/Startify"
--'  13  4  /home/jhbian/pider/Startify
-|4,39,13,4,1519629304,"/home/jhbian/pider/Startify"
--'  13  4  /home/jhbian/pider/Startify
-|4,39,13,4,1519629304,"/home/jhbian/pider/Startify"
--'  23  0  /home/jhbian/pider/Startify
-|4,39,23,0,1519629203,"/home/jhbian/pider/Startify"
--'  23  0  /home/jhbian/pider/Startify
-|4,39,23,0,1519629203,"/home/jhbian/pider/Startify"
--'  23  0  /home/jhbian/pider/Startify
-|4,39,23,0,1519629203,"/home/jhbian/pider/Startify"
--'  23  0  /home/jhbian/pider/Startify
-|4,39,23,0,1519629203,"/home/jhbian/pider/Startify"
--'  1  0  /home/jhbian/pider/Startify
-|4,39,1,0,1519629202,"/home/jhbian/pider/Startify"
--'  2  0  ~/.vim/README.md
-|4,39,2,0,1519629202,"~/.vim/README.md"
--'  1  0  /home/jhbian/pider/Startify
-|4,39,1,0,1519629202,"/home/jhbian/pider/Startify"
--'  1  0  /home/jhbian/pider/Startify
-|4,39,1,0,1519629202,"/home/jhbian/pider/Startify"
--'  2  0  ~/.vim/README.md
-|4,39,2,0,1519629202,"~/.vim/README.md"
--'  2  0  ~/.vim/README.md
-|4,39,2,0,1519629202,"~/.vim/README.md"
--'  1  0  /home/jhbian/pider/Startify
-|4,39,1,0,1519629202,"/home/jhbian/pider/Startify"
--'  2  0  ~/.vim/README.md
-|4,39,2,0,1519629202,"~/.vim/README.md"
--'  2  0  ~/.vim/README.md
-|4,39,2,0,1519629202,"~/.vim/README.md"
--'  1  0  ~/.vim/README.md
-|4,39,1,0,1519629200,"~/.vim/README.md"
--'  1  0  ~/.vim/README.md
-|4,39,1,0,1519629200,"~/.vim/README.md"
--'  1  0  ~/.vim/README.md
-|4,39,1,0,1519629200,"~/.vim/README.md"
--'  1  0  ~/.vim/README.md
-|4,39,1,0,1519629200,"~/.vim/README.md"
--'  10  0  ~/.vim/README.md
-|4,39,10,0,1519629199,"~/.vim/README.md"
--'  13  0  ~/.vim/README.md
-|4,39,13,0,1519629199,"~/.vim/README.md"
--'  13  0  ~/.vim/README.md
-|4,39,13,0,1519629199,"~/.vim/README.md"
--'  13  0  ~/.vim/README.md
-|4,39,13,0,1519629199,"~/.vim/README.md"
--'  13  0  ~/.vim/README.md
-|4,39,13,0,1519629199,"~/.vim/README.md"
--'  13  0  ~/.vim/README.md
-|4,39,13,0,1519629199,"~/.vim/README.md"
--'  13  0  ~/.vim/README.md
-|4,39,13,0,1519629199,"~/.vim/README.md"
--'  13  0  ~/.vim/README.md
-|4,39,13,0,1519629199,"~/.vim/README.md"
--'  13  0  ~/.vim/README.md
-|4,39,13,0,1519629199,"~/.vim/README.md"
--'  1  0  ~/.vim/README.md
-|4,39,1,0,1519628846,"~/.vim/README.md"
--'  1  0  ~/.vim/README.md
-|4,39,1,0,1519628846,"~/.vim/README.md"
--'  1  0  ~/.vim/README.md
-|4,39,1,0,1519628846,"~/.vim/README.md"
--'  1  0  ~/.vim/README.md
-|4,39,1,0,1519628846,"~/.vim/README.md"
--'  21  0  ~/.vim/README.md
-|4,39,21,0,1519627913,"~/.vim/README.md"
--'  15  0  ~/.vim/README.md
-|4,39,15,0,1519627913,"~/.vim/README.md"
--'  25  0  ~/.vim/README.md
-|4,39,25,0,1519627913,"~/.vim/README.md"
--'  19  0  ~/.vim/README.md
-|4,39,19,0,1519627913,"~/.vim/README.md"
--'  25  0  ~/.vim/README.md
-|4,39,25,0,1519627913,"~/.vim/README.md"
--'  19  0  ~/.vim/README.md
-|4,39,19,0,1519627913,"~/.vim/README.md"
--'  25  0  ~/.vim/README.md
-|4,39,25,0,1519627913,"~/.vim/README.md"
--'  19  0  ~/.vim/README.md
-|4,39,19,0,1519627913,"~/.vim/README.md"
--'  25  0  ~/.vim/README.md
-|4,39,25,0,1519627913,"~/.vim/README.md"
--'  19  0  ~/.vim/README.md
-|4,39,19,0,1519627913,"~/.vim/README.md"
--'  25  0  ~/.vim/README.md
-|4,39,25,0,1519627913,"~/.vim/README.md"
--'  19  0  ~/.vim/README.md
-|4,39,19,0,1519627913,"~/.vim/README.md"
--'  25  0  ~/.vim/README.md
-|4,39,25,0,1519627913,"~/.vim/README.md"
--'  19  0  ~/.vim/README.md
-|4,39,19,0,1519627913,"~/.vim/README.md"
--'  25  0  ~/.vim/README.md
-|4,39,25,0,1519627913,"~/.vim/README.md"
--'  19  0  ~/.vim/README.md
-|4,39,19,0,1519627913,"~/.vim/README.md"
--'  25  0  ~/.vim/README.md
-|4,39,25,0,1519627913,"~/.vim/README.md"
--'  19  0  ~/.vim/README.md
-|4,39,19,0,1519627913,"~/.vim/README.md"
--'  1  0  ~/.vim/README.md
-|4,39,1,0,1519627583,"~/.vim/README.md"
--'  1  0  ~/.vim/README.md
-|4,39,1,0,1519627583,"~/.vim/README.md"
--'  1  0  ~/.vim/README.md
-|4,39,1,0,1519627583,"~/.vim/README.md"
--'  1  0  ~/.vim/README.md
-|4,39,1,0,1519627583,"~/.vim/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
--'  56  0  /home/jhbian/pider/README.md
-|4,39,56,0,1519627576,"/home/jhbian/pider/README.md"
+-'  2  0  ~/.vim/.vimrc
+|4,39,2,0,1519629868,"~/.vim/.vimrc"
+-'  2  0  ~/.vim/.vimrc
+|4,39,2,0,1519629868,"~/.vim/.vimrc"
+-'  2  0  ~/.vim/.vimrc
+|4,39,2,0,1519629868,"~/.vim/.vimrc"
+-'  2  0  ~/.vim/.vimrc
+|4,39,2,0,1519629868,"~/.vim/.vimrc"
+-'  2  0  ~/.vim/.vimrc
+|4,39,2,0,1519629868,"~/.vim/.vimrc"
+-'  2  0  ~/.vim/.vimrc
+|4,39,2,0,1519629868,"~/.vim/.vimrc"
+-'  2  0  ~/.vim/.vimrc
+|4,39,2,0,1519629868,"~/.vim/.vimrc"
+-'  2  0  ~/.vim/.vimrc
+|4,39,2,0,1519629868,"~/.vim/.vimrc"
+-'  2  0  ~/.vim/.vimrc
+|4,39,2,0,1519629868,"~/.vim/.vimrc"
+-'  2  0  ~/.vim/.vimrc
+|4,39,2,0,1519629868,"~/.vim/.vimrc"
+-'  2  0  ~/.vim/.vimrc
+|4,39,2,0,1519629868,"~/.vim/.vimrc"
 
 # History of marks within files (newest to oldest):
 
+> ~/.vimrc
+	*	1519654928	0
+	"	2	0
+	^	58	40
+	.	352	0
+	+	348	0
+	+	349	0
+	+	348	0
+	+	58	39
+	+	328	0
+	+	352	0
+
 > ~/.vim/README.md
-	*	1519654676	0
-	"	58	1
-	^	58	1
-	.	58	0
-	+	21	0
+	*	1519654876	0
+	"	22	0
+	^	54	1
+	.	111	0
+	+	17	0
 	+	5	0
 	+	9	0
 	+	10	0
@@ -337,7 +357,10 @@
 	+	10	0
 	+	10	9
 	+	10	0
-	+	58	0
+	+	54	0
+	+	12	0
+	+	73	0
+	+	111	0
 
 > ~/.vim/.vimrc
 	*	1519629867	0
@@ -370,16 +393,6 @@
 > /home/jhbian/pider/pider
 	*	1519624092	0
 	"	1	0
-
-> ~/.vimrc
-	*	1519359055	0
-	"	58	39
-	^	58	40
-	.	58	39
-	+	349	0
-	+	350	0
-	+	349	0
-	+	58	39
 
 > ~/.vim/bundle/ControlP
 	*	1519359035	0
