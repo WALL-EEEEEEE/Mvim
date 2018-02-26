@@ -1,4 +1,4 @@
-<div align='right'>**Language:** English [Chinese](https://raw.githubusercontent.com/duanqiaobb/Mvim/master/lang/chinese.md)</div>
+<div align='right'><strong>Language:</strong> English <a href="https://raw.githubusercontent.com/duanqiaobb/Mvim/master/lang/chinese.md">Chinese</div>
 
 # Mvim
 
