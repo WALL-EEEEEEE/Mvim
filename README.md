@@ -68,6 +68,8 @@
 40. [webapi-vim](https://github.com/mattn/webapi-vim)
 41. [winmanager](https://github.com/vim-scripts/winmanager)
 42. [dracula-theme](https://github.com/dracula/vim/tree/b7e11c087fe2a9e3023cdccf17985704e27b125d)
+43. [vim-wintabs](https://github.com/zefei/vim-wintabs)
+44. [vim-wintabs-powerline](https://github.com/zefei/vim-wintabs-powerline)
 
 ## program (for basic programming)
 
