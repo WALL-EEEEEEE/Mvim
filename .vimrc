@@ -50,6 +50,8 @@ Plug '~/.vim/bundle/basic/Mike'
 Plug '~/.vim/bundle/basic/vim-startify'
 Plug '~/.vim/bundle/basic/vim-leader-guide'
 Plug '~/.vim/bundle/basic/mirror.vim'
+Plug '~/.vim/bundle/basic/vim-wintabs'
+Plug '~/.vim/bundle/basic/vim-wintabs-powerline'
 "--program
 Plug '~/.vim/bundle/program/nerdcommenter', { 'for': ['java','php','cpp','c','javascript'] }
 Plug '~/.vim/bundle/program/syntastic', { 'for': ['java','php','cpp','c','javascript'] }
@@ -347,6 +349,8 @@ let g:ascii = [
 \ ]
 let g:startify_custom_header = s:filter_header(g:ascii)
 set viminfo='100,n$HOME/.vim/files/info/viminfo
+
+"--vim-wintabs
 
 "Mappings
 "---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
