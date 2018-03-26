@@ -362,7 +362,7 @@ function vim_install(){
    fi
    ln -sf ~/.vim/.vimrc ~/.vimrc
    echo "Configuring YoucompleteMe for you ..."
-   cd ~/.vim/bundle/YouCompleteMe
+   cd ~/.vim/bundle/program/YouCompleteMe
    python ./install.py  --clang-completer --gocode-completer --tern-completer
    if [[ ! $? == 0  ]];then
        echo "Compilation Error: Compiling YoucompleteMe Error"
