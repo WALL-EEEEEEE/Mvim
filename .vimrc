@@ -186,10 +186,10 @@ let g:nodejs_complete_config = {
 "specify checker for js
 let g:syntastic_javascript_checkers = ['jslint']
 "set for python 
-let g:syntastic_python_python_exec = '/usr/local/bin/python3.6'
+let g:syntastic_python_python_exec = '/usr/local/bin/python3.7'
 "show json quotes for current line
 let g:indentLine_concealcursor=""
-let g:ycm_python_binary_path="/usr/local/bin/python3.6"
+let g:ycm_python_binary_path="/usr/local/bin/python3.7"
 
 "--Javacomplete2
 autocmd Filetype java setlocal omnifunc=javacomplete#Complete
@@ -294,7 +294,7 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 
 "--YoucompleteMe
-let g:ycm_global_ycm_extra_conf="/home/johans/.vim/bundle/program/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
+let g:ycm_global_ycm_extra_conf="~/.vim/bundle/program/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
 let g:syntastic_cpp_compiler = 'g++'
 let g:syntastic_cpp_compiler_options = '-std=c++11 -stdlib=libc++ '
 
