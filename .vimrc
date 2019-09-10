@@ -53,11 +53,12 @@ Plug '~/.vim/bundle/basic/mirror.vim'
 Plug '~/.vim/bundle/basic/vim-wintabs'
 Plug '~/.vim/bundle/basic/vim-wintabs-powerline'
 "--program
-Plug '~/.vim/bundle/program/nerdcommenter', { 'for': ['java','php','cpp','c','javascript'] }
-Plug '~/.vim/bundle/program/syntastic', { 'for': ['java','php','cpp','c','javascript'] }
-Plug '~/.vim/bundle/program/vdebug', { 'for': ['java','php','cpp','c','javascript'] }
-Plug '~/.vim/bundle/program/YouCompleteMe', { 'for': ['cpp','c','javascript','python','go','ruby'] }
-Plug '~/.vim/bundle/program/vim-wakatime', { 'for': ['java','php','cpp','c','javascript'] }
+Plug '~/.vim/bundle/program/nerdcommenter', { 'for': ['java','php','cpp','c','javascript', 'python', 'go', 'rust'] }
+Plug '~/.vim/bundle/program/vdebug', { 'for': ['java','php','cpp','c','javascript', 'python', 'go', 'rust'] }
+Plug '~/.vim/bundle/program/vim-wakatime', { 'for': ['java','php','cpp','c','javascript', 'python', 'go', 'rust'] }
+Plug 'ycm-core/YouCompleteMe', { 'for': ['java','php','cpp','c','javascript', 'python', 'go', 'rust'] }
+Plug 'dense-analysis/ale', { 'for': ['java','php','cpp','c','javascript', 'python', 'go', 'rust'] }
+
 
 "--php
 Plug '~/.vim/bundle/php/php-documentor-vim', { 'for': 'php' }
@@ -66,7 +67,7 @@ Plug '~/.vim/bundle/php/phpcomplete-extended', { 'on': ['PHPCompleteExtendedRelo
 Plug '~/.vim/bundle/php/phpcomplete.vim', { 'for': 'php' }
 "--java
 Plug '~/.vim/bundle/java/jcommenter.vim', { 'for': 'java' }
-Plug '~/.vim/bundle/java/vim-javacomplete2', { 'for': 'java' }
+"Plug '~/.vim/bundle/java/vim-javacomplete2', { 'for': 'java' }
 "--javascript
 Plug '~/.vim/bundle/js/javascript', { 'for': ['json','javascript'] }
 Plug '~/.vim/bundle/js/vim-jsbeautify', { 'for': ['javascript','json']}
@@ -87,7 +88,7 @@ call plug#end()
 "Custom Settings
 set t_Co=256
 set cursorline       "specify the font-size and font-style
-set guifont=Ubuntu\ Mono\ derivative\ Powerline\ Nerd\ Font\ 14
+"set guifont=Ubuntu\ Mono\ derivative\ Powerline\ Nerd\ Font\ 14
 set encoding=utf-8
 set fileencodings=utf-8,chinese,ISO-8859,latin-1,
 set regexpengine=1   "big nesting with new regexpengine is slow
@@ -168,29 +169,6 @@ let php_parent_error_open=1
 let g:AutoCloseOn=1 
 let g:AutoClosePairs= {'(': ')', '[': ']', '"': '"', "'": "'", '<': '>'}
 
-"--Syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-let g:syntastic_always_populate_loc_list = 0
-let g:syntastic_auto_loc_list = 0 
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_java_javac_classpath='./:'
-set  omnifunc=syntaxcomplete#Complete  "enable omnifunc
-"options for nodejs-complete
-let g:nodejs_complete_config = {
-            \  'js_compl_fn': 'jscomplete#CompleteJS',
-            \  'max_node_compl_len': 15
-            \}
-"specify checker for js
-let g:syntastic_javascript_checkers = ['jslint']
-"set for python 
-let g:syntastic_python_python_exec = '/usr/local/bin/python3.7'
-"show json quotes for current line
-let g:indentLine_concealcursor=""
-let g:ycm_python_binary_path="/usr/local/bin/python3.7"
-
 "--Javacomplete2
 autocmd Filetype java setlocal omnifunc=javacomplete#Complete
 autocmd Filetype java map <leader>b :call javacomplete#GoToDefinition()<CR>
@@ -257,7 +235,7 @@ if !exists('g:neocomplete#keyword_patterns')
     let g:neocomplete#keyword_patterns = {}
 endif
     let g:neocomplete#keyword_patterns['default'] = '\h\w*'
-set completeopt+=longest,menuone
+set completeopt+=menu,menuone
 let g:neocomplete#disable_auto_complete = 1
 "enable omni completion.
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
@@ -294,9 +272,22 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 
 "--YoucompleteMe
-let g:ycm_global_ycm_extra_conf="~/.vim/bundle/program/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
+let g:ycm_global_ycm_extra_conf="~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
 let g:syntastic_cpp_compiler = 'g++'
 let g:syntastic_cpp_compiler_options = '-std=c++11 -stdlib=libc++ '
+let g:ycm_python_binary_path="/usr/local/bin/python3.7"
+
+"--ALE
+let g:ale_sign_column_always = 1
+let g:ale_set_highlights = 0
+let g:ale_sign_error = '✗'
+let g:ale_sign_warning = '⚡'
+let g:ale_statusline_format = ['✗ %d', '⚡ %d', '✔ OK']
+let g:ale_echo_msg_error_str = 'E'
+let g:ale_echo_msg_warning_str = 'W'
+let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
+nmap <Leader>s :ALEToggle<CR>
+nmap <Leader>d :ALEDetail<CR>
 
 "--Vim-reload
 let g:reload_on_write = 0   "disabled auto-reload on write for vim-reload plugin
